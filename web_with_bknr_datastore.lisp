@@ -16,7 +16,7 @@
 	  (make-instance
 	   'bknr.datastore:store-object-subsystem)))
     (make-instance 'bknr.datastore:mp-store
-		   :directory #P"/home/soe/Code/Learning/CL/LispForTheWeb/bknrstore/"
+		   :directory "/tmp/bknrstore/"
 		   :subsystems (list object-subsystem))))
 
 (defclass game (bknr.datastore:store-object)
